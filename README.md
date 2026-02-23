@@ -1,6 +1,6 @@
 # SMS Spam Classifier
 
-A simple **SMS Spam Detection** project using **Python**, **TF-IDF**, and **Naive Bayes** with a **GUI** for real-time predictions. The project can classify any SMS message as **Spam** or **Ham** and handles **imbalanced datasets**.
+A simple **SMS Spam Detection** project using **Python**, **TF-IDF**, and **Naive Bayes** with a **GUI** for real-time predictions. The project can classify any SMS message as **Spam** or **Not Spam** and handles **imbalanced datasets**.
 
 ---
 
