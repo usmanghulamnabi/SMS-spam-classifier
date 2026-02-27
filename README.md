@@ -6,7 +6,6 @@ A simple **SMS Spam Detection** project using **Python**, **TF-IDF**, and **Naiv
 
 ## Features
 
-* Trains on the [SMS Spam Collection Dataset](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection)
 * Handles **class imbalance** using oversampling
 * Uses **TF-IDF** with unigrams and bigrams for feature extraction
 * Uses **Multinomial Naive Bayes** for classification
@@ -31,33 +30,6 @@ pip install numpy pandas scikit-learn matplotlib seaborn joblib
 ```
 
 3. Make sure you have **Python 3.8+** installed.
-
----
-
-## Usage
-
-### Step 1: Train and Save the Model (Run Once)
-
-```bash
-python train_model.py
-```
-
-* This will train the model on `spam.csv` and save:
-
-  * `sms_model.pkl` → trained Naive Bayes model
-  * `tfidf_vectorizer.pkl` → TF-IDF vectorizer
-
-### Step 2: Run the GUI
-
-```bash
-python gui.py
-```
-
-* Enter any SMS message in the text box
-* Click **Predict**
-* The classifier will display **Spam** or **Not Spam**
-
-> After the first run, you **do not need the CSV file**. The GUI loads the saved model directly.
 
 ---
 
